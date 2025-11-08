@@ -1,0 +1,21 @@
+.container {
+    background-color: crimson;
+    height: 100vh;
+    
+  display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.box {
+    
+    background-color: blue;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    
+}
