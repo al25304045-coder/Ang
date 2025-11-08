@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background-color: #27264b;
+    color: #433f63;
+    ;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* ul {
+    list-style: none;
+    margin-top: 50px;
+} */
+
+i {
+    color: rgb(117, 228, 117);
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 8px 20px black;
+
+}
+
+/* pseudo class fake class */
+ul {
+    text-align: left;
+    margin-top: 50px;
+    list-style: none;
+
+    /* padding: 0; */
+}
+
+i {
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+
+
+}
+
+.btn:hover {
+    background-color: #27264b;
+    color: white;
+}
+
+.pro {
+    background-color: #27264b;
+    color: white;
+}
+
+.pro:hover {
+    background-color: white;
+    color: black;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    background-color: aliceblue;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.h2pro {
+    background: linear-gradient(90deg, rgb(166, 217, 239), rgb(194, 129, 229));
+    color: white;
+}
+
+.h2ent {
+    background: linear-gradient(90deg, rgb(204, 153, 223), rgb(245, 167, 34));
+    color: white;
+}
+
+span {
+    font-size: 45px;
+    margin-left: 5px;
+}
+
+sup {
+    position: relative;
+    bottom: 12px;
+    font-size: 18px;
+}
+
+.main-text {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.price {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
